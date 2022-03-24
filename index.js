@@ -1,8 +1,10 @@
 class UI {
     
-    constructor(type) {
-        this.elem = document.createElement("input");
-        if (type) this.elem.type = type
+    constructor(options) {
+        this.elem = document.createElement("div");
+        this.elem.style.width =  options.width + 'px';
+        this.elem.style.height = options.height + 'px'
+        this.elem.style.background = options.color;
     }
 
     setParent(parent) {
@@ -11,5 +13,8 @@ class UI {
 
 }
 
-
-new UI("password").setParent(document.body)
+const test = new UI({
+    height: 100,
+    width: 200, 
+    color: 'red'
+}).setParent(document.body);
