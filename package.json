@@ -1,0 +1,22 @@
+{
+  "name": "production_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/228SxS228/production_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/228SxS228/production_practice/issues"
+  },
+  "homepage": "https://github.com/228SxS228/production_practice#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
